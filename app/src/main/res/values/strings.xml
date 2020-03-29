@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting">Settings</string>
+    <string name="configurations">Configurations</string>
+    <string name="welcome_hangman">Hangman by Usama</string>
+    <string name="setting_title">Settings</string>
+</resources>
