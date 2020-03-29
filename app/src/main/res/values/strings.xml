@@ -12,4 +12,8 @@
     <string name="blue_back">Blue Background</string>
     <string name="lets_play">Let\'s Play</string>
     <string name="config">Game Configurations</string>
+    <string name="hangman_title">Hangman 2.0</string>
+    <string name="game_instructions">A word with some missing alphabets is shown below. You can try 7 seven times to guess the word right. Good Luck!</string>
+    <string name="guess">Guess</string>
+    <string name="submit">Submit</string>
 </resources>
