@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,9 +9,46 @@
     tools:context=".ui.ResultFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+
+    <TextView
+        android:id="@+id/results_title"
+        android:layout_width="268dp"
+        android:layout_height="79dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/game_over"
+        android:textColor="#FAF6F6"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/play_again"
+        android:layout_width="298dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/play_again"
+        android:textColor="#FAFAFA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/results_title"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/results_title"
+        app:layout_constraintTop_toBottomOf="@+id/results_title" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="@string/home"
+        app:layout_constraintEnd_toEndOf="@+id/play_again"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/play_again"
+        app:layout_constraintTop_toBottomOf="@+id/play_again" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

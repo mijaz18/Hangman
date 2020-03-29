@@ -41,7 +41,7 @@
         android:label="game_fragment"
         tools:layout="@layout/game_fragment" >
         <action
-            android:id="@+id/action_gameFragment_to_resultFragment"
+            android:id="@+id/GameToResult"
             app:destination="@id/resultFragment" />
     </fragment>
     <fragment
@@ -50,7 +50,7 @@
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
         <action
-            android:id="@+id/action_resultFragment_to_welcomeFragment"
+            android:id="@+id/ResultToWelcome"
             app:destination="@id/welcomeFragment" />
     </fragment>
 </navigation>

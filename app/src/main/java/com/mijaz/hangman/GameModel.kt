@@ -40,4 +40,5 @@ class GameModel{
         solution = currentWord.solution
     }
 
+
 }

@@ -19,4 +19,10 @@ class GameViewModel : ViewModel() {
         _word.value = game.currentWord.word
         _solution.value = game.solution
     }
+
+    fun newWord() {
+        game.newWord()
+        _word.value = game.currentWord.word
+        _solution.value = game.solution
+    }
 }

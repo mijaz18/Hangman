@@ -16,4 +16,7 @@
     <string name="game_instructions">A word with some missing alphabets is shown below. You can try 7 seven times to guess the word right. Good Luck!</string>
     <string name="guess">Guess</string>
     <string name="submit">Submit</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">Want to Play Again? :)</string>
+    <string name="home">Home</string>
 </resources>
