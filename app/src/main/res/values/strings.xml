@@ -7,4 +7,9 @@
     <string name="configurations">Configurations</string>
     <string name="welcome_hangman">Hangman by Usama</string>
     <string name="setting_title">Settings</string>
+    <string name="welcome">Home</string>
+    <string name="red_back">Red Background</string>
+    <string name="blue_back">Blue Background</string>
+    <string name="lets_play">Let\'s Play</string>
+    <string name="config">Game Configurations</string>
 </resources>

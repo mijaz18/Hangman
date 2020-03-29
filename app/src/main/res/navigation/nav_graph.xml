@@ -23,7 +23,7 @@
         android:label="fragment_config"
         tools:layout="@layout/fragment_config" >
         <action
-            android:id="@+id/action_configFragment_to_gameFragment"
+            android:id="@+id/ConfigToGame"
             app:destination="@id/gameFragment" />
     </fragment>
     <fragment
@@ -32,7 +32,7 @@
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" >
         <action
-            android:id="@+id/action_settingsFragment_to_welcomeFragment"
+            android:id="@+id/SettingToWelcome"
             app:destination="@id/welcomeFragment" />
     </fragment>
     <fragment
