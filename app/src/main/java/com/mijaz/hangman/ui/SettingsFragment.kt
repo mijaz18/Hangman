@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
+import com.mijaz.hangman.GameModel
+import android.widget.Toast
 import kotlinx.android.synthetic.main.fragment_settings.*
 
 import com.mijaz.hangman.R
@@ -15,6 +17,8 @@ import kotlinx.android.synthetic.main.fragment_welcome.*
  * A simple [Fragment] subclass.
  */
 class SettingsFragment : Fragment() {
+
+    private val game = GameModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,7 +33,9 @@ class SettingsFragment : Fragment() {
         welcome_button.setOnClickListener {
             view.findNavController().navigate(R.id.SettingToWelcome)
         }
-
+        red_radioButton.setOnClickListener {
+            game.newColor(true)
+        }
     }
 
 }

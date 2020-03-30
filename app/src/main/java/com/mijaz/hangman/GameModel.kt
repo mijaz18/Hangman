@@ -7,6 +7,7 @@ class GameModel{
 
 
     data class WordSol(val word: String, val solution: String)
+    public var colorChange: Boolean = true
 
     private val wordSol: List<WordSol> = listOf(
         WordSol(
@@ -39,6 +40,13 @@ class GameModel{
         currentWord = wordSol[Random.nextInt(wordSol.size)]
         solution = currentWord.solution
     }
+
+    fun newColor(x: Boolean){
+        colorChange = x
+    }
+
+
+
 
 
 }
